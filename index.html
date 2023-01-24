@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Movie Ticket Place</title>
+</head>
+<body>
+
+  <select name="movies" id="movie">
+    <option value="select" selected="selected">--Select a Movie--</option>
+    <option value="8">Dino APACOLYPSE!</option>
+    <option value="12">When they met</option>
+    <option value="12">THE CAR!</option>
+    <option value="12">Noodle Town</option>
+    <option value="8">Random, the perfectly normal movie</option>
+  </select>
+  <br>
+
+  <select name="times" id="time">
+    <option value="select">--Select a Time--</option>
+    <option value="1">2pm</option>
+    <option value="1">4pm</option>
+    <option value="1.2">6pm</option>
+    <option value="1.2">8pm</option>
+  </select>
+  <br>
+
+  <select name="age" id="age">
+    <option value="select">--Select age--</option>
+    <option value="0.5">Child: (Under 13)</option>
+    <option value="1">Adult:</option>
+    <option value="0.6">Senior: (65+)</option>
+  </select>
+  <br>
+
+  <input type="number" name="quantity" id="quantity">
+  <label for="quantity">Number of tickets</label>
+  <br>
+
+  <button id="button" type="button">Submit</button>
+  
+  <div id="tickets">
+
+  </div>
+  <h1 id="total">Total: $</h1>
+
+</body>
+<script src="./js/scripts.js"></script>
+</html>
